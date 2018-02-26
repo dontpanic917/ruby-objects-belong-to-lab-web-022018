@@ -6,4 +6,7 @@ class Post
     @title
   end
 
+  def self.author(author)
+    author.name
+  end
 end
